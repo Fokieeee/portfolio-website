@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/47d4dbf738.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Ilnar Akhmetshin</title>
+  </head>
+
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigator">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link"> Home</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, i am <strong>Ilnar Akhmetshin</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+      <img src="img/IMG_3657.jpg" alt="" class="intro__img" />
+    </section>
+
+    <!-- about me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">About me</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Frontend developer | React, TypeScript, Redux
+      </p>
+
+      <div class="about-me__body">
+        <div class="service">
+          <h3>Skills</h3>
+					<ul>
+						<li>React, TypeScript: 1 year experience</li>
+						<li>Redux</li>
+						<li>Sass</li>
+						<li>Responsive Web Design</li>
+					</ul>
+        </div>
+      </div>
+
+        <div class="service">
+          <h3>Additional info:</h3>
+					<ul>
+						<li>Current Location: Uzbekistan, Tashkent</li>
+						<li>Citizenship: Russian Federation</li>
+						<li>English Level: C1</li>
+					</ul>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- My Work -->
+
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a href="https://github.com/Fokieeee/quizz-game-react" target="_blank" class="portfolio__item">
+          <img src="img/quiz.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 02 -->
+        <a href="https://github.com/Fokieeee/tenzies-react.git" target="_blank" class="portfolio__item">
+          <img src="img/tenzies.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 03 -->
+        <a href="https://github.com/Fokieeee/alien-game-js.git" target="_blank" class="portfolio__item">
+          <img src="img/alien-game.png" alt="" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <a href="" class="footer__link">f0kul9nder@gmail.com</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a href="https://www.linkedin.com/in/ilnar-akhmetshin" target="_blank" class="social-list__link"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://github.com/Fokieeee" target="_blank" class="social-list__link"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="mailto:f0kul9nder@gmail.com"  target="_blank" class="social-list__link"
+            ><i class="fa-sharp fa-solid fa-envelope"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
